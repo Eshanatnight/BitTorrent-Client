@@ -7,5 +7,5 @@
 *.pyproj.user
 *.sln
 
-/__pycache__
+src/pieces/__pycache__
 
