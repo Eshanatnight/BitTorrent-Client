@@ -6,7 +6,6 @@ import time
 from asyncio import Queue
 from collections import namedtuple, defaultdict
 from hashlib import sha1
-from typing import List
 
 from pieces.protocol import PeerConnection, REQUEST_SIZE
 from pieces.tracker import Tracker
@@ -145,7 +144,7 @@ class Piece:
     to as `Block` by the unofficial specification (the official specification
     uses piece for this one as well, which is slightly confusing).
     """
-    def __init__(self, index: int, blocks: List[T], hash_value):
+    def __init__(self, index: int, blocks, hash_value):
         self.index = index
         self.blocks = blocks
         self.hash = hash_value
