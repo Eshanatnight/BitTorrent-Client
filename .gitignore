@@ -7,3 +7,5 @@
 *.pyproj.user
 *.sln
 
+/__pycache__
+
