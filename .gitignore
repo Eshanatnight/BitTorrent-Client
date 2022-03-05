@@ -3,4 +3,7 @@
 /.vscode
 /.vs
 /.venv
+*.pyproj
+*.pyproj.user
+*.sln
 
